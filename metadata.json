@@ -1,5 +1,0 @@
-{
-  "name": "AI Selfie Stylist v.1",
-  "description": "Upload a selfie and transform it using AI. Change your hairstyle, outfit, background, and more with predefined style prompts powered by Gemini.",
-  "requestFramePermissions": []
-}
