@@ -1,3 +1,4 @@
+
 export const en = {
   startOver: "Start Over",
   credit: "Credit : Emin Hosseini .M",
@@ -25,6 +26,7 @@ export const en = {
 
   error_upload: "Please upload an image first.",
   error_generate: "Failed to generate image. Please try again.",
+  error_api_key: "API Key is not configured. This app cannot generate images without it.",
 
   hairstyle: "Hairstyle",
   outfit: "Outfit",

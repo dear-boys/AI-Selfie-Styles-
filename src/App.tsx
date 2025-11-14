@@ -87,7 +87,11 @@ const App: React.FC = () => {
       setGeneratedImage(`data:image/png;base64,${newImageBase64}`);
     } catch (err) {
       console.error(err);
-      setError(t.error_generate);
+      if (err instanceof Error && err.message === 'API_KEY_MISSING') {
+        setError(t.error_api_key);
+      } else {
+        setError(t.error_generate);
+      }
     } finally {
       setIsLoading(false);
     }

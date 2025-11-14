@@ -1,3 +1,4 @@
+
 import { Translations } from './en';
 
 export const fa: Translations = {
@@ -27,6 +28,7 @@ export const fa: Translations = {
 
   error_upload: "لطفا ابتدا یک تصویر آپلود کنید.",
   error_generate: "تولید تصویر ناموفق بود. دوباره تلاش کنید.",
+  error_api_key: "کلید API تنظیم نشده است. برنامه بدون آن قادر به تولید تصویر نیست.",
 
   hairstyle: "مدل مو",
   outfit: "لباس",
